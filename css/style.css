@@ -209,37 +209,34 @@ header nav ul li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
     margin-top: 15px;
+    padding-bottom: 30px;
 }
-.Git{
-    background-color: #FFFFFF;
-    border-radius: 14px;
-    width: 154px;
-    height: 42px;
-    display: flex;
-    padding-left: 5px;
-    margin-left: 320px;
-    margin-top: 22px;
-
-}
-.Git:before{
-    content: "";
-    background-color: black;
-   display: block;
-    width: 10%;
-    height:40%;
-    border-radius: 45%;
-    padding:10px 9px 5px 5px;
-    margin-top: 4px;
-}
-.git_after{
-    font-family: 'Poppins';
+.article_p4 a{
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
     letter-spacing: 0.4px;
     color: #000000;
-    padding: 9px 10px 9px 10px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    position: relative;
+  padding: 9px 15px 13px 42px;
+    margin-left: 320px;
+}
+.article_p4 a:before {
+    content: "";
+    background-color: black;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    display: inline-block;
+    top: 5px;
+    right: 118px;
+    bottom: 5px;
+    margin-right: 6px;
+    border-radius: 13px;
 
 }
+
