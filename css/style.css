@@ -223,6 +223,7 @@ header nav ul li:last-of-type a{
     position: relative;
   padding: 9px 15px 13px 42px;
     margin-left: 320px;
+    text-decoration: none;
 }
 .article_p4 a:before {
     content: "";
