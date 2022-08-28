@@ -66,9 +66,7 @@ header nav ul li:last-of-type a{
 }
 .first_article{
     max-width: 580px;
-    margin: auto;
     box-sizing: border-box;
-    padding-top: 300px;
 
 }
 .first_article h3{
@@ -140,7 +138,7 @@ header nav ul li:last-of-type a{
 /*strat third section*/
 .container_sec{
     background-color: black;
-   box-sizing: border-box;
+    box-sizing: border-box;
     position: relative;
     height: 70vh;
     display: flex;
@@ -176,11 +174,18 @@ header nav ul li:last-of-type a{
     padding-left: 100px;
 }
 .p3_img{
-    box-sizing: border-box;
-    padding-top: 70px;
+    max-width: 1168px;
+    padding: 66px 0;
+  text-align: center;
+
 }
-.p3_img img{
-    margin-left:90px;
+.p3_img a{
+    width: 128px;
+   display: block;
+
+}
+.p3_img a img {
+max-width: 100%;
 }
 /*end of part 3*/
 /* start part 4*/
@@ -188,7 +193,6 @@ header nav ul li:last-of-type a{
 .article_p4{
     max-width: 700px;
     margin: auto;
-
 }
 .article_p4 h1{
     font-family: 'Poppins',sans-serif;
@@ -238,5 +242,76 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     border-radius: 13px;
 
+}
+.portfolio{
+    background-image: url("../img/port.svg");
+   min-height: 600px;
+    background-size: cover;
+    position: relative;
+   justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.sub_container{
+    max-width: 298px;
+    margin-right: 62px;
+
+}
+.sub_container h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.sub_container p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
+
+.owl-carousel .p3_img a {
+    max-width: 128px;
+    margin: auto;
+
+}
+.owl-dots{
+    position: relative;
+    top: 130px;
+
+}
+
+.owl-dots .owl-dot span{
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.owl-dots .owl-dot.active span{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+    display: flex;
+    align-items: center;
 }
 
