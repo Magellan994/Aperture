@@ -292,19 +292,22 @@ max-width: 100%;
 }
 
 .owl-dots .owl-dot span{
-    background-color: blueviolet;
+    background-color: peru;
     width: 20px;
     height: 20px;
     display: inline-block;
     border-radius: 50%;
     margin: 30px;
+
 }
 
 .owl-dots .owl-dot.active span{
-    background-color: aquamarine;
+    background-color: lightslategrey;
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    position: relative;
+    top: 5px;
 }
 .owl-carousel .owl-stage {
     position: relative;
